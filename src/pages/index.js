@@ -1,5 +1,20 @@
 import React from "react"
+import Layout from "../components/Layout"
+import * as styles from "../styles/home.module.css"
+import { Link } from 'gatsby';
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <Layout>
+      <section className = {styles.header}>
+        <div>
+          <h2 >Design</h2>
+          <h3>Develop & Deploy</h3>
+          <p>UX designer & web deveoper based in Manchester</p>
+          <Link to = "/projects" className = {styles.btn}>My Portfolio Projects</Link>
+          <img src="/banner.png" alt="site banner" style = {{maxWidth: "100%"}} />
+        </div> 
+      </section>
+    </Layout>
+  )
 }
