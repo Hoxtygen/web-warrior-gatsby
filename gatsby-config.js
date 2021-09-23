@@ -19,6 +19,7 @@ module.exports = {
   siteMetadata: {
     title: "Web Warrior",
     description: "Web dev portfolio",
-    copyright: "This website is copyright 2021 Web Warrior"
+    copyright: "This website is copyright 2021 Web Warrior",
+    contact: "hoxtygen@thewebwarrior.com"
   }
 }
